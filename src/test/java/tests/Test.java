@@ -1,10 +1,8 @@
+package tests;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptException;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.safari.SafariDriver;
 
 import java.util.concurrent.TimeUnit;
@@ -16,7 +14,8 @@ public class Test {
     By USERNAME=By.xpath("//div[@class='signup-form']//input[@name='name']");
     By SIGNUPEmail=By.xpath("//input[@data-qa='signup-email']");
  */
-    public static void main(String[] args) throws InterruptedException {
+    @org.testng.annotations.Test
+    public void testcase() throws InterruptedException {
         //WebDriverManager.chromedriver().setup();
         WebDriverManager.safaridriver().setup();
         WebDriver driver=new SafariDriver();
