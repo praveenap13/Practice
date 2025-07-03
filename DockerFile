@@ -1,0 +1,16 @@
+FROM openjdk:23
+EXPOSE 8080
+ADD target/Practice.jar Practice.jar
+ENTRYPOINT ["java","-jar","/Practice.jar"]
+
+
+
+
+
+
+
+
+
+
+
+

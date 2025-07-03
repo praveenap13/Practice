@@ -48,6 +48,7 @@
         </configuration>
       </plugin>
     </plugins>
+    <finalName>Practice</finalName>
   </build>
   <dependencies>
 
@@ -107,4 +108,5 @@
     <!--        </dependency>-->
 
   </dependencies>
+
 </project>
