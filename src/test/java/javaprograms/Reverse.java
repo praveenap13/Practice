@@ -1,15 +1,15 @@
 package javaprograms;
 
-public class Reverse {
+import org.testng.annotations.Test;
 
-    public static void main(String[] args) {
+public class Reverse {
+      @Test
+    public void reverse(){
         int num=123,rev=0;
         while(num!=0){
             //rev=rev*10+num%10;
             System.out.print(num%10);
             num= num/0;
         }
-        System.out.println();
-        System.out.println(rev);
     }
 }
